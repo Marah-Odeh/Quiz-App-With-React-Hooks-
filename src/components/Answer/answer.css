@@ -1,15 +1,16 @@
 .answer {
   width: 48%;
   background: #fff;
-  border: 2px solid #0094da;
+  border: 2px solid #507283;
   min-height: 70px;
   cursor: pointer;
   margin-bottom: 30px;
   display: flex;
+  border-radius: 10px;
 }
 .answer-letter {
   font-size: 30px;
-  background-color: #0084da;
+  background-color: #68879d;
   color: #fff;
   width: 70px;
   display: flex;

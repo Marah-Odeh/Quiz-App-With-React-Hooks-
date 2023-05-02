@@ -1,38 +1,44 @@
 .quiz {
-  width: 975px;
   margin: 0 auto;
-  margin-top: 100px;
+  width: 100%;
 }
-
-.results {
-  background-color: #fff;
-  height: 300px;
-  text-align: center;
+.box {
+  margin: 0 auto;
+  margin-top: 80px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 85%;
+  padding: 30px;
 }
 
 .congratulations {
-  background-color: #0094da;
+  background-color: #512da8b0;
   padding: 20px;
   font-size: 36px;
   color: #fff;
+  border-radius: 10px;
 }
 
 .results-info {
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 18px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
 }
 .next-button {
   margin: 0 auto;
   color: #fff;
   background: #0b0e21;
-  width: 300px;
+  max-width: 300px;
   font-size: 18px;
   font-weight: 600;
   padding: 14px 75px;
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;
+  border-radius: 10px;
 }
 
 .score {
@@ -47,4 +53,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
