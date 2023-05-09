@@ -42,3 +42,8 @@
 .disabled-answer {
   pointer-events: none;
 }
+@media (max-width: 767px) {
+  .answer {
+    width: 80%;
+  }
+}

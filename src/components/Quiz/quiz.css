@@ -55,3 +55,9 @@
   justify-content: center;
   border-radius: 10px;
 }
+
+@media (max-width: 767px) {
+  .congratulations {
+    font-size: 24px;
+  }
+}
