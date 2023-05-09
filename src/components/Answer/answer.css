@@ -1,7 +1,6 @@
 .answer {
   width: 48%;
   background: #fff;
-  border: 2px solid #507283;
   min-height: 70px;
   cursor: pointer;
   margin-bottom: 30px;
@@ -44,6 +43,6 @@
 }
 @media (max-width: 767px) {
   .answer {
-    width: 80%;
+    width: 100%;
   }
 }
